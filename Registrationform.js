@@ -124,10 +124,3 @@ success = (input) => {
     return sum;
   };
 
-var Username = document.getElementById('Username').value;
-var Email = document.getElementById('Email').value;
-var PhoneNumber = document.getElementById('PhoneNumber').value;
-localStorage.setItem("currentloggedin",Username);
-localStorage.setItem("currentloggedin",Email);
-localStorage.setItem("currentloggedin",PhoneNumber);
-

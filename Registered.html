@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+        <title>Registration form XML details</title>
+    
+</head>
+<body>
+    <h2>Registered students</h2>
+    <button type="button" class="button" onclick="loadxmldoc()">Click here</button>
+    <table id="id"></table>
+</body>
+    <script>
+        function loadxmldoc(){
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function(){
+                if (this.readyState == 4 && this.status == 200){
+                    myFunction(this);
+                }
+            };
+            xmlhttp.open("GET","D:\MCA\ConstructionManagement\2147152CAT2\Registrationform.xml",true);
+            xmlhttp.send();
+        }
+        function myFunction(xml){
+            var x, i, xmlDoc, table;
+            xmlDoc = xml.responseXML;
+            table = '<tr><th>Student Name</th><th>Student University</th></tr>';
+            x = xmlDoc.getElementsByTagName("COMPUTER-SCIENCE");
+            for (i = 0; i < x.length; i++){
+                table += "<tr><td>"+
+                    x[i].getElementsByTagName("STU-NAME")[0].childNodes[0].nodeValue + "</td><td>"+ 
+                    x[i].getElementsByTagName("STU-UNIVERSITY")[0].childNodes[0].nodeValue + "</td></tr>";
+                    
+            }
+            document.getElementById("id").innerHTML = table;
+        }
+    </script>
+
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHRIST>
+  <COMPUTER-SCIENCE>
+    <STU-NAME>Saumya</STU-NAME>
+    <STU-UNIVERSITY>Christ University</STU-UNIVERSITY>
+    <STU-PHONE>8267899119</STU-PHONE>
+    <STU-EMAIL>saumya.thukral@christuniversity.in</STU-EMAIL>
+    
+  </COMPUTER-SCIENCE>
+  <COMPUTER-SCIENCE>
+    <STU-NAME>Kai</STU-NAME>
+    <STU-UNIVERSITY>Christ University</STU-UNIVERSITY>
+    <STU-PHONE>9888880198</STU-PHONE>
+    <STU-EMAIL>kai.sm@christuniversity.in</STU-EMAIL>
+    
+  </COMPUTER-SCIENCE>
+  <COMPUTER-SCIENCE>
+    <STU-NAME>Jess</STU-NAME>
+    <STU-UNIVERSITY>Christ University</STU-UNIVERSITY>
+    <STU-PHONE>9887012390</STU-PHONE>
+    <STU-EMAIL>jess.ca@christuniversity.in</STU-EMAIL>
+    
+  </COMPUTER-SCIENCE>
+</CHRIST>
+  
